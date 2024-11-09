@@ -19,7 +19,7 @@ header{
     background-color: rgb(96, 96, 231);
     border: none;
     color: wheat;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 15px;
 }
 .btn:hover{
@@ -60,4 +60,39 @@ header{
 }
 #cover-img-secton img{
     width: 100%;
+}
+#search-section{
+    /* border: 2px solid gray; */
+    width: 50%;
+    margin: 50px auto;
+}
+#search-section >h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+#searcch-continer{
+    width: 50%;
+    border: 2px solid rgb(44, 42, 37);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(202, 247, 114);
+    display: flex;
+}
+#search-bar{
+    width: 70%;
+    /* border: 2px solid rgb(171, 171, 221); */
+}
+#search-bar >input[type="text"]{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 60%;
+    background-color: rgb(202, 247, 114);
+}
+#search-button{
+    /* border: 2px solid gray; */
+    width: 30%;
+    display: flex;
+    justify-content: end;
 }
