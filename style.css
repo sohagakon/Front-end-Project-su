@@ -96,3 +96,56 @@ header{
     display: flex;
     justify-content: end;
 }
+#card-section{
+     /* border: 2px solid rgb(189, 189, 85); */
+     width: 80%;
+     margin: 50px auto;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-image{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card-image img{
+    width: 100%;
+    height: 400px;
+}
+
+.card-image:hover{
+    background-color: rgb(209, 173, 173);
+    transition: 0.8s;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(34, 31, 31);
+}
+.card-price{
+    text-align: center;
+    font-weight: 600px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card-button{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
